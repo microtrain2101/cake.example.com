@@ -117,6 +117,7 @@ class Application extends BaseApplication
      */
     public function services(ContainerInterface $container): void
     {
+        $this->addPlugin('Authentication');
     }
 
     /**
